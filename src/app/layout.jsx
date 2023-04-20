@@ -1,4 +1,5 @@
-import './globals.css'
+import Footer from '@/components/Footer';
+import './globals.css';
 
 export const metadata = {
   title: 'Google Clone Next js 13',
@@ -6,12 +7,20 @@ export const metadata = {
   icons: {
     icon: '/favicon.svg',
   },
-}
+};
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang='en'>
+      <body>
+
+        {children}
+
+      {/* Footer */}
+
+      <Footer/>
+
+      </body>
     </html>
-  )
+  );
 }
