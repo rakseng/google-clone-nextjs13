@@ -6,6 +6,7 @@ import { RxCross2 } from 'react-icons/rx';
 import { BsFillMicFill } from 'react-icons/bs';
 import { AiOutlineSearch } from 'react-icons/ai';
 
+
 export default function SearchBox() {
   const searchParams = useSearchParams();
   const router = useRouter();
